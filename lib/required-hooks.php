@@ -34,7 +34,7 @@ function it_exchange_quick_view_addon_show_version_nag() {
 		if ( version_compare( $exchange_addon_stripe['Version'], '1.1.14', '<' ) ) {
 			?>
 			<div class="it-exchange-nag it-exchange-add-on-min-version-nag">
-				<?php printf( __( 'The Quick View add-on requires Exchange Add-on Stripe version 1.2.0 or greater to function properly.', 'LION' ) ); ?>
+				<?php printf( __( 'The Quick View add-on requires Exchange Add-on Stripe version 1.1.14 or greater to function properly.', 'LION' ) ); ?>
 			</div>
 			<script type="text/javascript">
 				jQuery( document ).ready( function() {
