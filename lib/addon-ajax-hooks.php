@@ -57,3 +57,17 @@ function it_exchange_quick_view_product_added_to_cart() {
 }
 add_action( 'it_exchange_processing_super_widget_ajax_it-exchange-quick-view-product-added-to-cart', 'it_exchange_quick_view_product_added_to_cart' );
 add_action( 'it_exchange_processing_super_widget_ajax_nopriv_it-exchange-quick-view-product-added-to-cart', 'it_exchange_quick_view_product_added_to_cart');
+
+/**
+ * AJAX function to set the checkout page for a redirect.
+ *
+ * @since 1.0.0
+ * @return string HTML output of product.
+*/
+function it_exchange_quick_view_redirect_to_cart() {
+	echo it_exchange_get_page_url( 'checkout' );
+
+	exit;
+}
+add_action( 'it_exchange_processing_super_widget_ajax_it-exchange-quick-view-redirect-to-cart', 'it_exchange_quick_view_redirect_to_cart' );
+add_action( 'it_exchange_processing_super_widget_ajax_nopriv_it-exchange-quick-view-redirect-to-cart', 'it_exchange_quick_view_redirect_to_cart');
