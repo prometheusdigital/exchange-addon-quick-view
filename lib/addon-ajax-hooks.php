@@ -61,7 +61,7 @@ add_action( 'it_exchange_processing_super_widget_ajax_nopriv_it-exchange-quick-v
 /**
  * AJAX function to set the checkout page for a redirect.
  *
- * @since 1.0.0
+ * @since 1.0.3
  * @return string HTML output of product.
 */
 function it_exchange_quick_view_redirect_to_cart() {

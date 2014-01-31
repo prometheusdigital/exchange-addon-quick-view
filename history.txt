@@ -6,3 +6,5 @@
 	Fixed the Stripe version number nag.
 1.0.3 - 2014-1-31 - Justin Kopepasah
 	Changed the way we handle some of the super widget process based on whether or not a user is logged in and/or needs to edit shipping or billing addresses.
+1.0.4 - 2014-1-31 - Justin Kopepasah
+	Bumping up version numbers.
