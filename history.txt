@@ -4,3 +4,5 @@
 	Fixed the contrast issue of the quick shop button.
 1.0.2 - 2014-1-30 - Justin Kopepasah
 	Fixed the Stripe version number nag.
+1.0.3 - 2014-1-31 - Justin Kopepasah
+	Changed the way we handle some of the super widget process based on whether or not a user is logged in and/or needs to edit shipping or billing addresses.
